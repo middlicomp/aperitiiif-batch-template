@@ -2,8 +2,8 @@ name: sync s3
 on:
   push:
     branches:
-    - main
-  paths-ignore:
+      - main
+    paths-ignore:
       - '**.md'
 jobs:
   sync:
