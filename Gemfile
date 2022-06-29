@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'vips'
+gem 'ruby-vips'
