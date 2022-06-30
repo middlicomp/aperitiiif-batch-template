@@ -2,7 +2,7 @@ require 'iiif/presentation'
 require 'mimemagic'
 require 'vips'
 
-PRES_API_URL  = 'http://example.com/iiif'
+PRES_API_URL  = 'https://raw.githubusercontent.com/nyu-dss/serverless-iiif-rijks-test/main/presentation'
 IMAGE_API_URL = 'https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2'
 target_dir    = "presentation"
 
@@ -14,7 +14,7 @@ files.each do |f|
   mime  = MimeMagic.by_magic(File.open(f)).to_s
   id    = File.basename(f).gsub(File.extname(f), '')
   seed  = {
-    '@id'   => "#{PRES_API_URL}/mainfest/#{id}.json",
+    '@id'   => "#{PRES_API_URL}/#{id}/manifest.json",
     'label' => id
   }
 
@@ -45,7 +45,7 @@ files.each do |f|
   canvas.images       << annotation
   manifest.sequences  << canvas
 
-  manifest_file = "#{target_dir}/manifest/#{id}/manifest.json"
+  manifest_file = "#{target_dir}/#{id}/manifest.json"
   FileUtils.mkdir_p File.dirname(manifest_file)
   File.open(manifest_file, 'w') { |f| f.write manifest.to_json(pretty: true) }
 end
