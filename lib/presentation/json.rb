@@ -26,10 +26,10 @@ files.each do |f|
   canvas.width        = image.width
   canvas.height       = image.height
   canvas.thumbnail    = "#{IMAGE_API_URL}/#{id}/full/250,/0/default.jpg"
-  canvas['full']      = "#{IMAGE_API_URL}/#{id}/full/full/0/default.jpg"
 
   annotation          = IIIF::Presentation::Annotation.new
   annotation['@id']   = "#{PRES_API_URL}/annotation/#{id}.json"
+  annotation['on']    = canvas['@id']
 
   resource            = IIIF::Presentation::Resource.new
   resource['@id']     = "#{IMAGE_API_URL}/#{id}/full/full/0/default.jpg"

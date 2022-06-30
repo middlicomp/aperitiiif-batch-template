@@ -11,12 +11,12 @@
       "width": 2884,
       "height": 1873,
       "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/rijks-test_kasukawa-004/full/250,/0/default.jpg",
-      "full": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/rijks-test_kasukawa-004/full/full/0/default.jpg",
       "images": [
         {
           "@id": "https://raw.githubusercontent.com/nyu-dss/serverless-iiif-rijks-test/main/presentation/annotation/rijks-test_kasukawa-004.json",
           "@type": "oa:Annotation",
           "motivation": "sc:painting",
+          "on": "https://raw.githubusercontent.com/nyu-dss/serverless-iiif-rijks-test/main/presentation/canvas/rijks-test_kasukawa-004.json",
           "resource": [
             {
               "@id": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/rijks-test_kasukawa-004/full/full/0/default.jpg",
