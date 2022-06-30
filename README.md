@@ -12,16 +12,16 @@ a. GitHub Repo
 
 2. IIIF Image API  
 a. [serverless-iiif](https://github.com/samvera-labs/serverless-iiif) implementation  
-b. source image s3 bucket  
-c. image sync to s3 github action  
+b. Source image S3 bucket  
+c. GitHub Action to sync images to S3 source bucket 
 
 3. IIIF Presentation API  
-a. s3 bucket for published json  
-b. github action to generate presentation api resources and sync to s3 pres bucket
+a. S3 bucket for published json  
+b. GitHub Action to generate IIIF Presentation API resources and sync to S3 presentation bucket
 
-4. Tests and Monitoring
-a. github action to deploy an automated listing of resources published using github pages
-b. cron task to randomly select a set of published resources and crawl to validate image delivery
+4. Tests and Monitoring  
+a. Github Action to deploy an automated listing of resources published using GitHub pages  
+b. Cron to randomly select a set of published resources and crawl to validate image delivery
 
 ## Workflow (WiP)
 
@@ -34,5 +34,6 @@ b. cron task to randomly select a set of published resources and crawl to valida
 - [x] Finish this repo with [sample images](https://github.com/nyu-dss/serverless-iiif-rijks-test/tree/main/src/kasukawa) and a [github action](https://github.com/nyu-dss/serverless-iiif-rijks-test/actions/workflows/sync-s3.yml) that converts those images to tif, namespaces them, and syncs them to the S3 source bucket.
 - [ ] Work on IIIF Presentation API implmentation
 - [ ] Automate an updated listing of resources published and deploy as GH Pages site
+- [ ] Create `serverless-iiif-template` repo for each collection to copy
 - [ ] Document namespacing, potential collection onboarding policy 
 - [ ] Get feedback
