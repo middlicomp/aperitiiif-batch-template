@@ -41,7 +41,7 @@ files.each do |f|
   service['@id']      = "#{IMAGE_API_URL}/#{id}/info.json"
 
   resource['service'] = service
-  annotation.resource << resource
+  annotation.resource = resource
   canvas.images       << annotation
   manifest.sequences  << canvas
 
