@@ -4,7 +4,7 @@ require 'vips'
 
 PRES_API_URL  = 'http://example.com/iiif'
 IMAGE_API_URL = 'https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2'
-target_dir    = "#{NEW_SRC}/presentation"
+target_dir    = "presentation"
 
 FileUtils.mkdir_p target_dir
 
@@ -45,7 +45,7 @@ files.each do |f|
   canvas.images       << annotation
   manifest.sequences  << canvas
 
-  manifest_file = "#{target_dir}/#{id}/manifest.json"
+  manifest_file = "#{target_dir}/manifest/#{id}/manifest.json"
   FileUtils.mkdir_p File.dirname(manifest_file)
   File.open(manifest_file, 'w') { |f| f.write manifest.to_json(pretty: true) }
 end

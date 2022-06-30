@@ -1,14 +1,13 @@
 require 'fileutils'
 require 'vips'
 
-target_dir = "#{NEW_SRC}/img"
 
-FileUtils.mkdir_p target_dir
+FileUtils.mkdir_p NEW_SRC
 
 files = Dir.glob("#{SRC_DIR}/**/*").select { |f| File.file? f }
 files.each do |f|
   base_path     = f.gsub(SRC_DIR, '').split('/').reject(&:empty?)
-  renamed_file  = "#{target_dir}/#{base_path.prepend(COLLECTION_NAMESPACE).join('_')}"
+  renamed_file  = "#{NEW_SRC}/#{base_path.prepend(COLLECTION_NAMESPACE).join('_')}"
 
   FileUtils.cp f, renamed_file
 

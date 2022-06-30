@@ -1,0 +1,38 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://example.com/iiif/mainfest/rijks-test_kasukawa-007.json",
+  "@type": "sc:Manifest",
+  "label": "rijks-test_kasukawa-007",
+  "sequences": [
+    {
+      "@id": "http://example.com/iiif/canvas/rijks-test_kasukawa-007.json",
+      "@type": "sc:Canvas",
+      "label": "rijks-test_kasukawa-007",
+      "width": 1926,
+      "height": 2976,
+      "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/rijks-test_kasukawa-007/full/250,/0/default.jpg",
+      "full": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/rijks-test_kasukawa-007/full/full/0/default.jpg",
+      "images": [
+        {
+          "@id": "http://example.com/iiif/annotation/rijks-test_kasukawa-007.json",
+          "@type": "oa:Annotation",
+          "motivation": "sc:painting",
+          "resource": [
+            {
+              "@id": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/rijks-test_kasukawa-007/full/full/0/default.jpg",
+              "@type": "dcterms:Image",
+              "format": "image/tiff",
+              "service": {
+                "@id": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/rijks-test_kasukawa-007/info.json",
+                "@context": [
+                  "http://iiif.io/api/image/2/context.json",
+                  "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/rijks-test_kasukawa-007/info.json"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
