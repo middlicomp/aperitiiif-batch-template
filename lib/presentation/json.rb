@@ -2,33 +2,29 @@ require 'iiif/presentation'
 require 'mimemagic'
 require 'vips'
 
-PRES_API_URL  = 'https://raw.githubusercontent.com/nyu-dss/serverless-iiif-rijks-test/main/presentation'
-IMAGE_API_URL = 'https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2'
-target_dir    = "presentation"
+FileUtils.mkdir_p PRESENTATION_BUILD_DIR
 
-FileUtils.mkdir_p target_dir
-
-files = Dir.glob("#{NEW_SRC}/**/*").select { |f| File.file? f }
+files = Dir.glob("#{BUILD_DIR}/**/*").select { |f| File.file? f }
 files.each do |f|
   image = Vips::Image.new_from_file f
   mime  = MimeMagic.by_magic(File.open(f)).to_s
   id    = File.basename(f).gsub(File.extname(f), '')
   seed  = {
-    '@id'   => "#{PRES_API_URL}/#{id}/manifest.json",
+    '@id'   => "#{PRESENTATION_API_URL}/#{id}/manifest.json",
     'label' => id
   }
 
   manifest            = IIIF::Presentation::Manifest.new seed
 
   canvas              = IIIF::Presentation::Canvas.new
-  canvas['@id']       = "#{PRES_API_URL}/canvas/#{id}.json"
+  canvas['@id']       = "#{PRESENTATION_API_URL}/canvas/#{id}.json"
   canvas.label        = id
   canvas.width        = image.width
   canvas.height       = image.height
   canvas.thumbnail    = "#{IMAGE_API_URL}/#{id}/full/250,/0/default.jpg"
 
   annotation          = IIIF::Presentation::Annotation.new
-  annotation['@id']   = "#{PRES_API_URL}/annotation/#{id}.json"
+  annotation['@id']   = "#{PRESENTATION_API_URL}/annotation/#{id}.json"
   annotation['on']    = canvas['@id']
 
   resource            = IIIF::Presentation::Resource.new
@@ -45,7 +41,7 @@ files.each do |f|
   canvas.images       << annotation
   manifest.sequences  << canvas
 
-  manifest_file = "#{target_dir}/#{id}/manifest.json"
+  manifest_file = "#{PRESENTATION_BUILD_DIR}/#{id}/manifest.json"
   FileUtils.mkdir_p File.dirname(manifest_file)
   File.open(manifest_file, 'w') { |f| f.write manifest.to_json(pretty: true) }
 end
