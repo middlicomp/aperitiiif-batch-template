@@ -4,7 +4,7 @@ require 'vips'
 
 FileUtils.mkdir_p PRESENTATION_BUILD_DIR
 
-files = Dir.glob("#{BUILD_DIR}/**/*").select { |f| File.file? f }
+files = Dir.glob("#{IMAGE_BUILD_DIR}/**/*").select { |f| File.file? f }
 files.each do |f|
   image = Vips::Image.new_from_file f
   mime  = MimeMagic.by_magic(File.open(f)).to_s
@@ -15,8 +15,9 @@ files.each do |f|
   }
 
   manifest            = IIIF::Presentation::Manifest.new seed
-
+  sequence            = IIIF::Presentation::Sequence.new
   canvas              = IIIF::Presentation::Canvas.new
+
   canvas['@id']       = "#{PRESENTATION_API_URL}/canvas/#{id}.json"
   canvas.label        = id
   canvas.width        = image.width
@@ -39,7 +40,8 @@ files.each do |f|
   resource['service'] = service
   annotation.resource = resource
   canvas.images       << annotation
-  manifest.sequences  << canvas
+  sequence.canvases   << canvas
+  manifest.sequences  << sequence
 
   manifest_file = "#{PRESENTATION_BUILD_DIR}/#{id}/manifest.json"
   FileUtils.mkdir_p File.dirname(manifest_file)
