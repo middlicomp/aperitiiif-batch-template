@@ -35,7 +35,7 @@ files.each do |f|
 
   service             = {}
   service['@context'] = 'http://iiif.io/api/image/2/context.json',
-  service['@id']      = "#{IMAGE_API_URL}/#{id}/info.json"
+  service['@id']      = "#{IMAGE_API_URL}/#{id}"
 
   resource['service'] = service
   annotation.resource = resource
