@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/nyu-dss/apertiiif-cli.git
+  revision: c3c35f96107534b00ccba9dc05e4a7522549cb8a
+  specs:
+    apertiiif-cli (0.1.0)
+      iiif-presentation
+      mimemagic
+      ruby-vips
+      safe_yaml
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -22,27 +32,23 @@ GEM
     mimemagic (0.4.3)
       nokogiri (~> 1)
       rake
-    minitest (5.16.1)
+    minitest (5.16.2)
     nokogiri (1.13.6-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.13.6-x86_64-linux)
       racc (~> 1.4)
     racc (1.6.0)
     rake (13.0.6)
     ruby-vips (2.1.4)
       ffi (~> 1.12)
     ruby2_keywords (0.0.5)
+    safe_yaml (1.0.5)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
 
 PLATFORMS
   x86_64-darwin-21
-  x86_64-linux
 
 DEPENDENCIES
-  iiif-presentation
-  mimemagic
-  ruby-vips
+  apertiiif-cli!
 
 BUNDLED WITH
    2.3.12
