@@ -1,10 +1,11 @@
 GIT
   remote: https://github.com/nyu-dss/apertiiif.git
-  revision: 319ac2783ac4502ec7444a0e6dc417459f3b3bce
+  revision: 305ff1160ccf7996814e12ed320dda83ad48bc83
   specs:
     apertiiif (0.1.0)
       iiif-presentation
       mimemagic
+      parallel
       progress_bar
       rainbow
       ruby-vips
@@ -42,6 +43,7 @@ GEM
     nokogiri (1.13.7-x86_64-linux)
       racc (~> 1.4)
     options (2.3.2)
+    parallel (1.22.1)
     progress_bar (1.3.3)
       highline (>= 1.6, < 3)
       options (~> 2.3.0)

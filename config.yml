@@ -1,8 +1,5 @@
 # batch config
 
 service_namespace:    'apertiiif-batch-'
-source_dir:           'src/data'
-build_dir:            'build'
-
 presentation_api_url: 'https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com'
 image_api_url:        'https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2'
