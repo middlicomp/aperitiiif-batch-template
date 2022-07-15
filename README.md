@@ -1,4 +1,5 @@
-# apertiiif-batch-template [![publish batch](https://github.com/nyu-dss/apertiiif-batch-rijks-test/actions/workflows/publish-batch.yml/badge.svg)](https://github.com/nyu-dss/apertiiif-batch-rijks-test/actions/workflows/publish-batch.yml)
+# apertiiif-batch-template 
+[![lint batch](https://github.com/nyu-dss/apertiiif-batch-template/actions/workflows/lint-batch.yml/badge.svg)](https://github.com/nyu-dss/apertiiif-batch-template/actions/workflows/lint-batch.yml) [![publish batch](https://github.com/nyu-dss/apertiiif-batch-rijks-test/actions/workflows/publish-batch.yml/badge.svg)](https://github.com/nyu-dss/apertiiif-batch-rijks-test/actions/workflows/publish-batch.yml)
 
 reusable template repository to store and publish an apertiiif batch to aws s3 & nyu-dss [serverless-iiif](https://github.com/samvera-labs/serverless-iiif)
 
