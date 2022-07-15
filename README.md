@@ -32,6 +32,7 @@ a. Github Action uses [apertiiif gem](https://github.com/nyu-dss/apertiiif) to g
   + [x] implement thor cli
   + [x] use rubocop
   + [x] process multi-asset items
+  + [x] use parallel gem for multi-thread processing
   + [x] process item-level metadata
   + [x] generate IIIF presentation manifest.json files
   + [ ] generate IIIF presentation collection.json file
