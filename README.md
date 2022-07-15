@@ -40,7 +40,7 @@ a. Github Action uses [apertiiif gem](https://github.com/nyu-dss/apertiiif) to g
   + [x] generate index.html listing
   + [x] generate index.json listing
   + [ ] write tests!!
-  + [ ] write command to lint batch, flag issues
+  + [x] write command to lint batch, flag issues
 - [ ] Document workflows, potential collection onboarding policy
 - [ ] Get feedback
 
