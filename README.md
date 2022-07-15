@@ -1,4 +1,4 @@
-# apertiiif-batch-rijks-test [![sync s3](https://github.com/nyu-dss/serverless-iiif-rijks-test/actions/workflows/sync-s3.yml/badge.svg)](https://github.com/nyu-dss/serverless-iiif-rijks-test/actions/workflows/sync-s3.yml)  
+# apertiiif-batch-rijks-test [![publish batch](https://github.com/nyu-dss/apertiiif-batch-rijks-test/actions/workflows/publish-batch.yml/badge.svg)](https://github.com/nyu-dss/apertiiif-batch-rijks-test/actions/workflows/publish-batch.yml) 
 Test repo to deploy to S3 + trigger IIIF Image API Lambda 
 
 
