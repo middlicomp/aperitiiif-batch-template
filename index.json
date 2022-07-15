@@ -55,8 +55,8 @@
     "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/rijks-test_kasukawa-011/full/250,/0/default.jpg"
   },
   {
-    "id": "rijks-test_katsukawa-012",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/rijks-test_katsukawa-012/manifest.json",
-    "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/rijks-test_katsukawa-012_1/full/250,/0/default.jpg"
+    "id": "rijks-test_kasukawa-012",
+    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/rijks-test_kasukawa-012/manifest.json",
+    "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/rijks-test_kasukawa-012_1/full/250,/0/default.jpg"
   }
 ]
