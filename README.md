@@ -21,7 +21,7 @@ c. GitHub Action uses [apertiiif gem](https://github.com/nyu-dss/apertiiif) to p
 a. S3 bucket for published json  
 b. GitHub Action uses [apertiiif gem](https://github.com/nyu-dss/apertiiif) to generate IIIF Presentation API resources, syncs them to S3 presentation bucket
 
-4. Discovery
+4. Discovery  
 a. Github Action uses [apertiiif gem](https://github.com/nyu-dss/apertiiif) to generate 2 indices of resources produced (`index.html` for humans, `index.json` for machines), publishes them to Github Pages
 
 ## Log
