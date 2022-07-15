@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/nyu-dss/apertiiif.git
-  revision: 9ce5aa267ca69ca4b1f16c611c494036c79361f6
+  revision: 33fd6f44f5a05b88dd3d94676a4bc12d11a5b9b3
   specs:
     apertiiif (0.1.0)
       iiif-presentation
