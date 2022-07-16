@@ -1,97 +1,153 @@
 <!DOCTYPE html><html lang="en">
   <head>
-    <meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>apertiiif batch listing: template</title>
-    <style>body {font-family: Sans-Serif;}</style>
+    <title>Rijksmuseum Demo | apertiiif batch listing</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
   </head>
   <body>
-    <h1>template apertiiif batch</h1>
-    <p>last updated 7/15/2022 at 21:14UTC</p>
-    <h2>published items (12)</h2>
-    <ul><li>
-  <b>template_kasukawa-001:</b>
-  <a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-001/manifest.json'>iiif manifest</a>,
-  <a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-001/full/250,/0/default.jpg'>thumb</a>,
-  <a target='_blank' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate_kasukawa-001%2Fmanifest.json&theme=dark'>view in viewpoint</a>
-</li>
+    <section class="hero is-info">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">Rijksmuseum Demo</h1>
+          <p class="subtitle">
+            Apertiiif Batch Index
+          </p>
+          <p class="is-5 is-grey">Last updated 7/16/2022 at 1:35UTC</p>
+          <p class="tags mt-5">
+            <a target='_blank' class='tag is-danger is-light' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/collection.json'>iiif collection</a>
+            <a target='_blank' class='tag is-link is-light' href='index.json'>index.json</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h2 class="is-size-4 mb-3">Items (12)</h3>
+        <table id="table" class="table display is-hoverable is-striped is-bordered">
+          <thead>
+            <tr>
+              <td>item id</td>
+              <td>label</td>
+              <td>thumbnnail</td>
+              <td>iiif manifest</td>
+              <td>view in viewpoint</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td><b>kasukawa-001</b></td>
+  <td>Acteur Ichikawa Ebizo II in een shibaraku rol</td>
+  <td><a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-001/full/250,/0/default.jpg'><img style="height:100px;width:auto" class='lazy' data-original="https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-001/full/250,/0/default.jpg"/></a></td>
+  <td><a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-001/manifest.json'><img alt='Thumbnail Acteur Ichikawa Ebizo II in een shibaraku rol' src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" style="width:25px"/></a></td>
+  <td><a target='_blank' class='is-size-7' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-001%2Fmanifest.json&theme=dark'>https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-001%2Fmanifest.json&theme=dark</a></td>
+</tr>
 
-<li>
-  <b>template_kasukawa-002:</b>
-  <a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-002/manifest.json'>iiif manifest</a>,
-  <a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-002/full/250,/0/default.jpg'>thumb</a>,
-  <a target='_blank' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate_kasukawa-002%2Fmanifest.json&theme=dark'>view in viewpoint</a>
-</li>
+<tr>
+  <td><b>kasukawa-002</b></td>
+  <td>Acteur Sawamura Sojuro II klaar om te vechten</td>
+  <td><a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-002/full/250,/0/default.jpg'><img style="height:100px;width:auto" class='lazy' data-original="https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-002/full/250,/0/default.jpg"/></a></td>
+  <td><a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-002/manifest.json'><img alt='Thumbnail Acteur Sawamura Sojuro II klaar om te vechten' src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" style="width:25px"/></a></td>
+  <td><a target='_blank' class='is-size-7' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-002%2Fmanifest.json&theme=dark'>https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-002%2Fmanifest.json&theme=dark</a></td>
+</tr>
 
-<li>
-  <b>template_kasukawa-003:</b>
-  <a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-003/manifest.json'>iiif manifest</a>,
-  <a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-003/full/250,/0/default.jpg'>thumb</a>,
-  <a target='_blank' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate_kasukawa-003%2Fmanifest.json&theme=dark'>view in viewpoint</a>
-</li>
+<tr>
+  <td><b>kasukawa-003</b></td>
+  <td>Acteur Yamashita Kinsaku II in de rol van de courtisane Agemaki</td>
+  <td><a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-003/full/250,/0/default.jpg'><img style="height:100px;width:auto" class='lazy' data-original="https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-003/full/250,/0/default.jpg"/></a></td>
+  <td><a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-003/manifest.json'><img alt='Thumbnail Acteur Yamashita Kinsaku II in de rol van de courtisane Agemaki' src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" style="width:25px"/></a></td>
+  <td><a target='_blank' class='is-size-7' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-003%2Fmanifest.json&theme=dark'>https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-003%2Fmanifest.json&theme=dark</a></td>
+</tr>
 
-<li>
-  <b>template_kasukawa-004:</b>
-  <a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-004/manifest.json'>iiif manifest</a>,
-  <a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-004/full/250,/0/default.jpg'>thumb</a>,
-  <a target='_blank' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate_kasukawa-004%2Fmanifest.json&theme=dark'>view in viewpoint</a>
-</li>
+<tr>
+  <td><b>kasukawa-004</b></td>
+  <td>Acteurstriptiek</td>
+  <td><a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-004/full/250,/0/default.jpg'><img style="height:100px;width:auto" class='lazy' data-original="https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-004/full/250,/0/default.jpg"/></a></td>
+  <td><a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-004/manifest.json'><img alt='Thumbnail Acteurstriptiek' src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" style="width:25px"/></a></td>
+  <td><a target='_blank' class='is-size-7' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-004%2Fmanifest.json&theme=dark'>https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-004%2Fmanifest.json&theme=dark</a></td>
+</tr>
 
-<li>
-  <b>template_kasukawa-005:</b>
-  <a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-005/manifest.json'>iiif manifest</a>,
-  <a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-005/full/250,/0/default.jpg'>thumb</a>,
-  <a target='_blank' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate_kasukawa-005%2Fmanifest.json&theme=dark'>view in viewpoint</a>
-</li>
+<tr>
+  <td><b>kasukawa-005</b></td>
+  <td>The Actor Ichikawa Danjuro IV in the Role of the Spirit Ki no Natora</td>
+  <td><a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-005/full/250,/0/default.jpg'><img style="height:100px;width:auto" class='lazy' data-original="https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-005/full/250,/0/default.jpg"/></a></td>
+  <td><a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-005/manifest.json'><img alt='Thumbnail The Actor Ichikawa Danjuro IV in the Role of the Spirit Ki no Natora' src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" style="width:25px"/></a></td>
+  <td><a target='_blank' class='is-size-7' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-005%2Fmanifest.json&theme=dark'>https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-005%2Fmanifest.json&theme=dark</a></td>
+</tr>
 
-<li>
-  <b>template_kasukawa-006:</b>
-  <a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-006/manifest.json'>iiif manifest</a>,
-  <a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-006/full/250,/0/default.jpg'>thumb</a>,
-  <a target='_blank' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate_kasukawa-006%2Fmanifest.json&theme=dark'>view in viewpoint</a>
-</li>
+<tr>
+  <td><b>kasukawa-006</b></td>
+  <td>The Actor Ichikawa Yaozō with Long Sword</td>
+  <td><a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-006/full/250,/0/default.jpg'><img style="height:100px;width:auto" class='lazy' data-original="https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-006/full/250,/0/default.jpg"/></a></td>
+  <td><a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-006/manifest.json'><img alt='Thumbnail The Actor Ichikawa Yaozō with Long Sword' src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" style="width:25px"/></a></td>
+  <td><a target='_blank' class='is-size-7' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-006%2Fmanifest.json&theme=dark'>https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-006%2Fmanifest.json&theme=dark</a></td>
+</tr>
 
-<li>
-  <b>template_kasukawa-007:</b>
-  <a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-007/manifest.json'>iiif manifest</a>,
-  <a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-007/full/250,/0/default.jpg'>thumb</a>,
-  <a target='_blank' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate_kasukawa-007%2Fmanifest.json&theme=dark'>view in viewpoint</a>
-</li>
+<tr>
+  <td><b>kasukawa-007</b></td>
+  <td>The Actor Nakamura Nakazo I Lifting a Column</td>
+  <td><a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-007/full/250,/0/default.jpg'><img style="height:100px;width:auto" class='lazy' data-original="https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-007/full/250,/0/default.jpg"/></a></td>
+  <td><a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-007/manifest.json'><img alt='Thumbnail The Actor Nakamura Nakazo I Lifting a Column' src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" style="width:25px"/></a></td>
+  <td><a target='_blank' class='is-size-7' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-007%2Fmanifest.json&theme=dark'>https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-007%2Fmanifest.json&theme=dark</a></td>
+</tr>
 
-<li>
-  <b>template_kasukawa-008:</b>
-  <a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-008/manifest.json'>iiif manifest</a>,
-  <a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-008/full/250,/0/default.jpg'>thumb</a>,
-  <a target='_blank' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate_kasukawa-008%2Fmanifest.json&theme=dark'>view in viewpoint</a>
-</li>
+<tr>
+  <td><b>kasukawa-008</b></td>
+  <td>Actor in the Role of a Brigand</td>
+  <td><a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-008/full/250,/0/default.jpg'><img style="height:100px;width:auto" class='lazy' data-original="https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-008/full/250,/0/default.jpg"/></a></td>
+  <td><a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-008/manifest.json'><img alt='Thumbnail Actor in the Role of a Brigand' src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" style="width:25px"/></a></td>
+  <td><a target='_blank' class='is-size-7' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-008%2Fmanifest.json&theme=dark'>https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-008%2Fmanifest.json&theme=dark</a></td>
+</tr>
 
-<li>
-  <b>template_kasukawa-009:</b>
-  <a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-009/manifest.json'>iiif manifest</a>,
-  <a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-009/full/250,/0/default.jpg'>thumb</a>,
-  <a target='_blank' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate_kasukawa-009%2Fmanifest.json&theme=dark'>view in viewpoint</a>
-</li>
+<tr>
+  <td><b>kasukawa-009</b></td>
+  <td>Minamoto no Yoritomo en Yuki Onna in de sneeuw.</td>
+  <td><a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-009/full/250,/0/default.jpg'><img style="height:100px;width:auto" class='lazy' data-original="https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-009/full/250,/0/default.jpg"/></a></td>
+  <td><a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-009/manifest.json'><img alt='Thumbnail Minamoto no Yoritomo en Yuki Onna in de sneeuw.' src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" style="width:25px"/></a></td>
+  <td><a target='_blank' class='is-size-7' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-009%2Fmanifest.json&theme=dark'>https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-009%2Fmanifest.json&theme=dark</a></td>
+</tr>
 
-<li>
-  <b>template_kasukawa-010:</b>
-  <a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-010/manifest.json'>iiif manifest</a>,
-  <a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-010/full/250,/0/default.jpg'>thumb</a>,
-  <a target='_blank' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate_kasukawa-010%2Fmanifest.json&theme=dark'>view in viewpoint</a>
-</li>
+<tr>
+  <td><b>kasukawa-010</b></td>
+  <td>Twee acteurs</td>
+  <td><a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-010/full/250,/0/default.jpg'><img style="height:100px;width:auto" class='lazy' data-original="https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-010/full/250,/0/default.jpg"/></a></td>
+  <td><a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-010/manifest.json'><img alt='Thumbnail Twee acteurs' src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" style="width:25px"/></a></td>
+  <td><a target='_blank' class='is-size-7' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-010%2Fmanifest.json&theme=dark'>https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-010%2Fmanifest.json&theme=dark</a></td>
+</tr>
 
-<li>
-  <b>template_kasukawa-011:</b>
-  <a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-011/manifest.json'>iiif manifest</a>,
-  <a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-011/full/250,/0/default.jpg'>thumb</a>,
-  <a target='_blank' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate_kasukawa-011%2Fmanifest.json&theme=dark'>view in viewpoint</a>
-</li>
+<tr>
+  <td><b>kasukawa-011</b></td>
+  <td>Vrouw bij rivier</td>
+  <td><a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-011/full/250,/0/default.jpg'><img style="height:100px;width:auto" class='lazy' data-original="https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-011/full/250,/0/default.jpg"/></a></td>
+  <td><a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-011/manifest.json'><img alt='Thumbnail Vrouw bij rivier' src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" style="width:25px"/></a></td>
+  <td><a target='_blank' class='is-size-7' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-011%2Fmanifest.json&theme=dark'>https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-011%2Fmanifest.json&theme=dark</a></td>
+</tr>
 
-<li>
-  <b>template_kasukawa-012:</b>
-  <a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-012/manifest.json'>iiif manifest</a>,
-  <a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-012_1/full/250,/0/default.jpg'>thumb</a>,
-  <a target='_blank' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate_kasukawa-012%2Fmanifest.json&theme=dark'>view in viewpoint</a>
-</li>
-</ul>
+<tr>
+  <td><b>kasukawa-012</b></td>
+  <td>Acteurstriptiek x 3</td>
+  <td><a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-012_1/full/250,/0/default.jpg'><img style="height:100px;width:auto" class='lazy' data-original="https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-012_1/full/250,/0/default.jpg"/></a></td>
+  <td><a target='_blank' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-012/manifest.json'><img alt='Thumbnail Acteurstriptiek x 3' src="https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png" style="width:25px"/></a></td>
+  <td><a target='_blank' class='is-size-7' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-012%2Fmanifest.json&theme=dark'>https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-012%2Fmanifest.json&theme=dark</a></td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('#table').DataTable( {
+          drawCallback: function(){
+            $("img.lazy").lazyload();
+          }
+        });
+      });
+    </script>
   </body>
 </html>

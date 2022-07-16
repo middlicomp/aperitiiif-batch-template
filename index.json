@@ -1,62 +1,62 @@
 [
   {
-    "id": "template_kasukawa-001",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-001/manifest.json",
+    "id": "kasukawa-001",
+    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-001/manifest.json",
     "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-001/full/250,/0/default.jpg"
   },
   {
-    "id": "template_kasukawa-002",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-002/manifest.json",
+    "id": "kasukawa-002",
+    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-002/manifest.json",
     "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-002/full/250,/0/default.jpg"
   },
   {
-    "id": "template_kasukawa-003",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-003/manifest.json",
+    "id": "kasukawa-003",
+    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-003/manifest.json",
     "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-003/full/250,/0/default.jpg"
   },
   {
-    "id": "template_kasukawa-004",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-004/manifest.json",
+    "id": "kasukawa-004",
+    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-004/manifest.json",
     "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-004/full/250,/0/default.jpg"
   },
   {
-    "id": "template_kasukawa-005",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-005/manifest.json",
+    "id": "kasukawa-005",
+    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-005/manifest.json",
     "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-005/full/250,/0/default.jpg"
   },
   {
-    "id": "template_kasukawa-006",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-006/manifest.json",
+    "id": "kasukawa-006",
+    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-006/manifest.json",
     "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-006/full/250,/0/default.jpg"
   },
   {
-    "id": "template_kasukawa-007",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-007/manifest.json",
+    "id": "kasukawa-007",
+    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-007/manifest.json",
     "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-007/full/250,/0/default.jpg"
   },
   {
-    "id": "template_kasukawa-008",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-008/manifest.json",
+    "id": "kasukawa-008",
+    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-008/manifest.json",
     "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-008/full/250,/0/default.jpg"
   },
   {
-    "id": "template_kasukawa-009",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-009/manifest.json",
+    "id": "kasukawa-009",
+    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-009/manifest.json",
     "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-009/full/250,/0/default.jpg"
   },
   {
-    "id": "template_kasukawa-010",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-010/manifest.json",
+    "id": "kasukawa-010",
+    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-010/manifest.json",
     "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-010/full/250,/0/default.jpg"
   },
   {
-    "id": "template_kasukawa-011",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-011/manifest.json",
+    "id": "kasukawa-011",
+    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-011/manifest.json",
     "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-011/full/250,/0/default.jpg"
   },
   {
-    "id": "template_kasukawa-012",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template_kasukawa-012/manifest.json",
+    "id": "kasukawa-012",
+    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-012/manifest.json",
     "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-012_1/full/250,/0/default.jpg"
   }
 ]
