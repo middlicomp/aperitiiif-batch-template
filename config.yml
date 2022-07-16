@@ -1,6 +1,9 @@
 # batch config
 
-service_namespace:    'apertiiif-batch-'
+label:          'Rijksmuseum Demo'
+description:    'Demo collection for apertiiif service'
+attribution:    'Provided by Rijksmuseum via Wikimedia Commons'
+
 presentation_api_url: 'https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com'
 image_api_url:        'https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2'
 
