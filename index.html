@@ -1,43 +1,44 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html><html lang='en'>
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Rijksmuseum Demo | apertiiif batch listing</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css'>
+    <link rel='stylesheet' href='https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css'>
   </head>
   <body>
-    <section class="hero is-info">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">Rijksmuseum Demo</h1>
-          <p class="subtitle">
+    <section class='hero is-info'>
+      <div class='hero-body'>
+        <div class='container'>
+          <h1 class='title'>Rijksmuseum Demo</h1>
+          <p class='subtitle'>
             Apertiiif Batch Index
           </p>
-          <p class="is-5 is-grey">Last updated 7/16/2022 at 1:35UTC</p>
-          <p class="tags mt-5">
+          <p class='is-5 is-grey'>Last updated 7/27/2022 at 1:25UTC</p>
+          <p class='tags mt-5'>
             <a target='_blank' class='tag is-danger is-light' href='https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/collection.json'>iiif collection</a>
             <a target='_blank' class='tag is-link is-light' href='index.json'>index.json</a>
           </p>
         </div>
       </div>
     </section>
-    <section class="section">
-      <div class="container">
-        <h2 class="is-size-4 mb-3">Items (12)</h3>
-        <table id="table" class="table display is-hoverable is-striped is-bordered">
-          <thead>
-            <tr>
-              <td>item id</td>
-              <td>label</td>
-              <td>thumbnnail</td>
-              <td>iiif manifest</td>
-              <td>view in viewpoint</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
+    <section class='section'>
+      <div class='container'>
+        <h2 class='is-size-4 mb-3'>Items (12)</h2>
+        <div class='table-container'>
+          <table id='table' class='table display is-hoverable is-striped is-bordered'>
+            <thead>
+              <tr>
+                <td>item id</td>
+                <td>label</td>
+                <td>thumbnnail</td>
+                <td>iiif manifest</td>
+                <td>view in viewpoint</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
   <td><b>kasukawa-001</b></td>
   <td>Acteur Ichikawa Ebizo II in een shibaraku rol</td>
   <td><a target='_blank' href='https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-001/full/250,/0/default.jpg'><img style="height:100px;width:auto" class='lazy' data-original="https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-001/full/250,/0/default.jpg"/></a></td>
@@ -133,18 +134,19 @@
   <td><a target='_blank' class='is-size-7' href='https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-012%2Fmanifest.json&theme=dark'>https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-012%2Fmanifest.json&theme=dark</a></td>
 </tr>
 
-          </tbody>
+            </tbody>
+          </table>
         </table>
       </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
-    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src='https://code.jquery.com/jquery-3.5.1.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js'></script>
+    <script src='https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js'></script>
     <script>
       $(document).ready(function () {
         $('#table').DataTable( {
           drawCallback: function(){
-            $("img.lazy").lazyload();
+            $('img.lazy').lazyload();
           }
         });
       });
