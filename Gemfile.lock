@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/nyu-dss/apertiiif.git
-  revision: 751432dcf89dbdc262b945b1a4cf487cd1de07f0
+  revision: 228db497926809548aa7f112b3920cbdfcfab717
   specs:
     apertiiif (0.1.0)
       iiif-presentation
@@ -38,9 +38,9 @@ GEM
       nokogiri (~> 1)
       rake
     minitest (5.16.2)
-    nokogiri (1.13.7-x86_64-darwin)
+    nokogiri (1.13.8-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.13.7-x86_64-linux)
+    nokogiri (1.13.8-x86_64-linux)
       racc (~> 1.4)
     options (2.3.2)
     parallel (1.22.1)
@@ -55,7 +55,7 @@ GEM
     ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
     thor (1.2.1)
-    tzinfo (2.0.4)
+    tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
 
 PLATFORMS
