@@ -1,6 +1,6 @@
 GIT
-  remote: https://github.com/nyu-dss/apertiiif.git
-  revision: 228db497926809548aa7f112b3920cbdfcfab717
+  remote: https://github.com/nyu-dss/apertiiif-cli.git
+  revision: ddbac506a9c0441567e8b3f5f93deb4d19284ab0
   specs:
     apertiiif (0.1.0)
       iiif-presentation
@@ -21,10 +21,10 @@ GEM
       minitest (>= 5.1)
       tzinfo (~> 2.0)
     concurrent-ruby (1.1.10)
-    faraday (2.3.0)
+    faraday (2.4.0)
       faraday-net_http (~> 2.0)
       ruby2_keywords (>= 0.0.4)
-    faraday-net_http (2.0.3)
+    faraday-net_http (2.1.0)
     ffi (1.15.5)
     highline (2.0.3)
     i18n (1.12.0)

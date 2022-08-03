@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'apertiiif', github: 'nyu-dss/apertiiif'
-# gem 'apertiiif', path: 'apertiiif'
+gem 'apertiiif', github: 'nyu-dss/apertiiif-cli'
+# gem 'apertiiif', path: 'apertiiif-cli'
