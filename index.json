@@ -1,62 +1,86 @@
 [
   {
     "id": "kasukawa-001",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-001/manifest.json",
-    "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-001/full/250,/0/default.jpg"
+    "label": "Acteur Ichikawa Ebizo II in een shibaraku rol",
+    "manifest_url": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-001/manifest.json",
+    "thumbnail_url": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-001/full/250,/0/default.jpg",
+    "viewpoint_url": "https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-001%2Fmanifest.json&theme=dark"
   },
   {
     "id": "kasukawa-002",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-002/manifest.json",
-    "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-002/full/250,/0/default.jpg"
+    "label": "Acteur Sawamura Sojuro II klaar om te vechten",
+    "manifest_url": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-002/manifest.json",
+    "thumbnail_url": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-002/full/250,/0/default.jpg",
+    "viewpoint_url": "https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-002%2Fmanifest.json&theme=dark"
   },
   {
     "id": "kasukawa-003",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-003/manifest.json",
-    "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-003/full/250,/0/default.jpg"
+    "label": "Acteur Yamashita Kinsaku II in de rol van de courtisane Agemaki",
+    "manifest_url": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-003/manifest.json",
+    "thumbnail_url": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-003/full/250,/0/default.jpg",
+    "viewpoint_url": "https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-003%2Fmanifest.json&theme=dark"
   },
   {
     "id": "kasukawa-004",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-004/manifest.json",
-    "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-004/full/250,/0/default.jpg"
+    "label": "Acteurstriptiek",
+    "manifest_url": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-004/manifest.json",
+    "thumbnail_url": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-004/full/250,/0/default.jpg",
+    "viewpoint_url": "https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-004%2Fmanifest.json&theme=dark"
   },
   {
     "id": "kasukawa-005",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-005/manifest.json",
-    "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-005/full/250,/0/default.jpg"
+    "label": "The Actor Ichikawa Danjuro IV in the Role of the Spirit Ki no Natora",
+    "manifest_url": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-005/manifest.json",
+    "thumbnail_url": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-005/full/250,/0/default.jpg",
+    "viewpoint_url": "https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-005%2Fmanifest.json&theme=dark"
   },
   {
     "id": "kasukawa-006",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-006/manifest.json",
-    "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-006/full/250,/0/default.jpg"
+    "label": "The Actor Ichikawa Yaozō with Long Sword",
+    "manifest_url": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-006/manifest.json",
+    "thumbnail_url": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-006/full/250,/0/default.jpg",
+    "viewpoint_url": "https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-006%2Fmanifest.json&theme=dark"
   },
   {
     "id": "kasukawa-007",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-007/manifest.json",
-    "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-007/full/250,/0/default.jpg"
+    "label": "The Actor Nakamura Nakazo I Lifting a Column",
+    "manifest_url": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-007/manifest.json",
+    "thumbnail_url": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-007/full/250,/0/default.jpg",
+    "viewpoint_url": "https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-007%2Fmanifest.json&theme=dark"
   },
   {
     "id": "kasukawa-008",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-008/manifest.json",
-    "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-008/full/250,/0/default.jpg"
+    "label": "Actor in the Role of a Brigand",
+    "manifest_url": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-008/manifest.json",
+    "thumbnail_url": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-008/full/250,/0/default.jpg",
+    "viewpoint_url": "https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-008%2Fmanifest.json&theme=dark"
   },
   {
     "id": "kasukawa-009",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-009/manifest.json",
-    "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-009/full/250,/0/default.jpg"
+    "label": "Minamoto no Yoritomo en Yuki Onna in de sneeuw.",
+    "manifest_url": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-009/manifest.json",
+    "thumbnail_url": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-009/full/250,/0/default.jpg",
+    "viewpoint_url": "https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-009%2Fmanifest.json&theme=dark"
   },
   {
     "id": "kasukawa-010",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-010/manifest.json",
-    "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-010/full/250,/0/default.jpg"
+    "label": "Twee acteurs",
+    "manifest_url": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-010/manifest.json",
+    "thumbnail_url": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-010/full/250,/0/default.jpg",
+    "viewpoint_url": "https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-010%2Fmanifest.json&theme=dark"
   },
   {
     "id": "kasukawa-011",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-011/manifest.json",
-    "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-011/full/250,/0/default.jpg"
+    "label": "Vrouw bij rivier",
+    "manifest_url": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-011/manifest.json",
+    "thumbnail_url": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-011/full/250,/0/default.jpg",
+    "viewpoint_url": "https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-011%2Fmanifest.json&theme=dark"
   },
   {
     "id": "kasukawa-012",
-    "manifest": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-012/manifest.json",
-    "thumbnail": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-012_1/full/250,/0/default.jpg"
+    "label": "Acteurstriptiek x 3",
+    "manifest_url": "https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com/template/kasukawa-012/manifest.json",
+    "thumbnail_url": "https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2/template_kasukawa-012_1/full/250,/0/default.jpg",
+    "viewpoint_url": "https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Ftemplate%2Fkasukawa-012%2Fmanifest.json&theme=dark"
   }
 ]
