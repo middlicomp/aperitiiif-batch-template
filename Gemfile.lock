@@ -1,6 +1,7 @@
 GIT
   remote: https://github.com/nyu-dss/apertiiif-cli.git
-  revision: 4a0a862d58b5ce5e3d52bc3b824c8876f78f8641
+  revision: c0c3d63abca5be60d0c66d7f427e850d4fe12f24
+  branch: enhancement/jpg-fmt
   specs:
     apertiiif (0.1.0)
       colorize
@@ -16,7 +17,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.0.3.1)
+    activesupport (7.0.4)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -39,7 +40,7 @@ GEM
     mimemagic (0.4.3)
       nokogiri (~> 1)
       rake
-    minitest (5.16.2)
+    minitest (5.16.3)
     nokogiri (1.13.8-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.13.8-x86_64-linux)
