@@ -1,7 +1,7 @@
-# apertiiif-batch-template
-[![lint batch](https://github.com/nyu-dss/apertiiif-batch-template/actions/workflows/lint-batch.yml/badge.svg)](https://github.com/nyu-dss/apertiiif-batch-template/actions/workflows/lint-batch.yml) [![publish batch](https://github.com/nyu-dss/apertiiif-batch-rijks-test/actions/workflows/publish-batch.yml/badge.svg)](https://github.com/nyu-dss/apertiiif-batch-rijks-test/actions/workflows/publish-batch.yml)
+# aperitiiif-batch-template
+[![lint batch](https://github.com/nyu-dss/aperitiiif-batch-template/actions/workflows/lint-batch.yml/badge.svg)](https://github.com/nyu-dss/aperitiiif-batch-template/actions/workflows/lint-batch.yml) [![publish batch](https://github.com/nyu-dss/aperitiiif-batch-rijks-test/actions/workflows/publish-batch.yml/badge.svg)](https://github.com/nyu-dss/aperitiiif-batch-rijks-test/actions/workflows/publish-batch.yml)
 
-reusable template repository to store and publish an apertiiif batch to aws s3 & nyu-dss [serverless-iiif](https://github.com/samvera-labs/serverless-iiif)
+reusable template repository to store and publish an aperitiiif batch to aws s3 & nyu-dss [serverless-iiif](https://github.com/samvera-labs/serverless-iiif)
 
 [![japanese 3 panel print circa 1770](https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/latest/iiif/2/rijks-test_kasukawa-004/full/500,/0/default.jpg)](https://dss.hosting.nyu.edu/viewpoint/mirador/#manifests[]=https%3A%2F%2Fnyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com%2Frijks-test_kasukawa-004%2Fmanifest.json&theme=dark&thumbs=off&view=single&workspacecontrols=false)
 > Triptych by Katsukawa Shunshō courtesy of the [Rijksmuseum via WikiMedia Commons](https://commons.wikimedia.org/wiki/File:Acteurstriptiek-Rijksmuseum_RP-P-2008-246.jpeg).  
@@ -15,21 +15,21 @@ a. GitHub Repo
 2. IIIF Image API  
 a. [serverless-iiif](https://github.com/samvera-labs/serverless-iiif) implementation    
 b. Source image S3 bucket  
-c. GitHub Action uses [apertiiif gem](https://github.com/nyu-dss/apertiiif) to process images, syncs them to S3 source bucket
+c. GitHub Action uses [aperitiiif gem](https://github.com/nyu-dss/aperitiiif) to process images, syncs them to S3 source bucket
 
 3. IIIF Presentation API  
 a. S3 bucket for published json  
-b. GitHub Action uses [apertiiif gem](https://github.com/nyu-dss/apertiiif) to generate IIIF Presentation API resources, syncs them to S3 presentation bucket
+b. GitHub Action uses [aperitiiif gem](https://github.com/nyu-dss/aperitiiif) to generate IIIF Presentation API resources, syncs them to S3 presentation bucket
 
 4. Discovery  
-a. Github Action uses [apertiiif gem](https://github.com/nyu-dss/apertiiif) to generate 2 indices of resources produced (`index.html` for humans, `index.json` for machines), publishes them to Github Pages
+a. Github Action uses [aperitiiif gem](https://github.com/nyu-dss/aperitiiif) to generate 2 indices of resources produced (`index.html` for humans, `index.json` for machines), publishes them to Github Pages
 
 ## Log
 
 - [x] Deploy [serverless-iiif](https://github.com/samvera-labs/serverless-iiif) to NYU DSS AWS account via SAM CLI
 - [x] Configure S3 bucket to hold 'source' images
-- [x] Create template repo with [sample images](https://github.com/nyu-dss/apertiiif-batch-rijks-test/tree/main/src/kasukawa) and workflows.
-- [ ] Create [apertiiif gem](https://github.com/nyu-dss/apertiiif)
+- [x] Create template repo with [sample images](https://github.com/nyu-dss/aperitiiif-batch-rijks-test/tree/main/src/kasukawa) and workflows.
+- [ ] Create [aperitiiif gem](https://github.com/nyu-dss/aperitiiif)
   + [x] implement thor cli
   + [x] use rubocop
   + [x] process multi-asset items
@@ -47,7 +47,7 @@ a. Github Action uses [apertiiif gem](https://github.com/nyu-dss/apertiiif) to g
 ## Narrative Workflow (WiP)
 
 **Setup** (GitHub)
-1. Admin creates repo for new collection using `apertiiif-batch-template` named `apertiiif-batch-collectionname` where `collectionname` will be the namespace used for resources generated.
+1. Admin creates repo for new collection using `aperitiiif-batch-template` named `aperitiiif-batch-collectionname` where `collectionname` will be the namespace used for resources generated.
 2. Admin adds S3 secrets to the repo enviroment.
 3. Admin enables Actions and GitHub pages on the repo.
 4. Admin gives curator(s) write access to the repo. They can add images and metadata but cannot access settings or secrets.  

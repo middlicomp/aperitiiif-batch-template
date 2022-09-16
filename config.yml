@@ -1,7 +1,7 @@
 # batch config
 
 label:          'Rijksmuseum Demo'
-description:    'Demo collection for apertiiif service'
+description:    'Demo collection for aperitiiif service'
 attribution:    'Provided by Rijksmuseum via Wikimedia Commons'
 
 presentation_api_url: 'https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com'

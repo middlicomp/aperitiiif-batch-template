@@ -1,9 +1,8 @@
 GIT
-  remote: https://github.com/nyu-dss/apertiiif-cli.git
-  revision: c0c3d63abca5be60d0c66d7f427e850d4fe12f24
-  branch: enhancement/jpg-fmt
+  remote: https://github.com/nyu-dss/aperitiiif-cli.git
+  revision: 3fb1f5c22b0b05cb42cc22d0ab68bf3cc8e38233
   specs:
-    apertiiif (0.1.0)
+    aperitiiif (0.1.0)
       colorize
       iiif-presentation
       liquid
@@ -62,7 +61,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  apertiiif!
+  aperitiiif!
 
 BUNDLED WITH
    2.3.12
