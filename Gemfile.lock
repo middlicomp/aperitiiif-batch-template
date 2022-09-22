@@ -1,6 +1,7 @@
 GIT
   remote: https://github.com/nyu-dss/aperitiiif-cli.git
-  revision: 3fb1f5c22b0b05cb42cc22d0ab68bf3cc8e38233
+  revision: 86b12e7269d5b392398d432a9732fe4d8d62ff22
+  tag: v0.1.0
   specs:
     aperitiiif (0.1.0)
       colorize
