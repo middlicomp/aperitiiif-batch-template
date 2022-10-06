@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/nyu-dss/aperitiiif-cli.git
-  revision: 86b12e7269d5b392398d432a9732fe4d8d62ff22
-  tag: v0.1.0
+  revision: 0e88bb13a2d5ef162fbf54a7079806070b790b39
+  branch: enhancement/smart-compress-tifs
   specs:
     aperitiiif (0.1.0)
       colorize
@@ -24,7 +24,7 @@ GEM
       tzinfo (~> 2.0)
     colorize (0.8.1)
     concurrent-ruby (1.1.10)
-    faraday (2.5.2)
+    faraday (2.6.0)
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.0)

@@ -4,8 +4,8 @@ label:          'Rijksmuseum Demo'
 description:    'Demo collection for aperitiiif service'
 attribution:    'Provided by Rijksmuseum via Wikimedia Commons'
 
-presentation_api_url: 'https://nyu-dss-serverless-iiif-presentation-test.s3.us-east-1.amazonaws.com'
-image_api_url:        'https://twt4gwyokx4jxgo2tcptgtn4v40qajbb.lambda-url.us-east-1.on.aws/iiif/2'
+presentation_api_url: 'https://aperitiiif-presentation-api-store.s3.us-east-1.amazonaws.com'
+image_api_url:        'https://d1b7k5w7yjwpfg.cloudfront.net/iiif/2'
 
 records:
   file: 'src/records.csv'
