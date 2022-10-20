@@ -19,18 +19,18 @@ jobs:
       with:
         args: --acl public-read --follow-symlinks
       env:
-        AWS_S3_BUCKET: ${{ secrets.IMAGE_SOURCE_BUCKET }}
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_S3_BUCKET: ${{ secrets.APERITIIIF_IMAGE_SOURCE_BUCKET }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.APERITIIIF_BUCKET_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.APERITIIIF_BUCKET_SECRET_ACCESS_KEY }}
         AWS_REGION: 'us-east-1'
         SOURCE_DIR: 'build/image'
     - uses: jakejarvis/s3-sync-action@master
       with:
         args: --acl public-read --follow-symlinks
       env:
-        AWS_S3_BUCKET: ${{ secrets.PRESENTATION_BUCKET }}
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_S3_BUCKET: ${{ secrets.APERITIIIF_PRESENTATION_BUCKET }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.APERITIIIF_BUCKET_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.APERITIIIF_BUCKET_SECRET_ACCESS_KEY }}
         AWS_REGION: 'us-east-1'
         SOURCE_DIR: 'build/presentation'
     - name: publish results
