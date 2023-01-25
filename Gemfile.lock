@@ -1,9 +1,9 @@
 GIT
-  remote: https://github.com/nyu-dss/aperitiiif-cli.git
-  revision: b52deaf8e0e8586fcd3626152897b882d33dd314
-  tag: v0.1.1
+  remote: https://github.com/middlicomp/aperitiiif-cli.git
+  revision: a91d2e30228ef223348713a021adef9422d98eee
+  tag: v0.1.2
   specs:
-    aperitiiif (0.1.1)
+    aperitiiif (0.1.2)
       colorize
       iiif-presentation
       liquid
@@ -17,36 +17,38 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.0.4)
+    activesupport (7.0.4.2)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
     colorize (0.8.1)
-    concurrent-ruby (1.1.10)
-    faraday (2.6.0)
+    concurrent-ruby (1.2.0)
+    faraday (2.7.4)
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
-    faraday-net_http (3.0.1)
+    faraday-net_http (3.0.2)
     ffi (1.15.5)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
-    iiif-presentation (1.0.0)
+    iiif-presentation (1.1.0)
       activesupport (>= 3.2.18)
       faraday (>= 0.9)
       json
-    json (2.6.2)
+    json (2.6.3)
     liquid (5.4.0)
     mimemagic (0.4.3)
       nokogiri (~> 1)
       rake
-    minitest (5.16.3)
-    nokogiri (1.13.9-x86_64-darwin)
+    minitest (5.17.0)
+    nokogiri (1.14.0-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.13.9-x86_64-linux)
+    nokogiri (1.14.0-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.14.0-x86_64-linux)
       racc (~> 1.4)
     parallel (1.22.1)
-    racc (1.6.0)
+    racc (1.6.2)
     rake (13.0.6)
     ruby-progressbar (1.11.0)
     ruby-vips (2.1.4)
@@ -58,6 +60,7 @@ GEM
       concurrent-ruby (~> 1.0)
 
 PLATFORMS
+  arm64-darwin-22
   x86_64-darwin-21
   x86_64-linux
 
